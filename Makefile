@@ -6,7 +6,7 @@
 #    By: bmaaqoul <bmaaqoul@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/19 21:09:51 by bmaaqoul          #+#    #+#              #
-#    Updated: 2022/02/19 21:32:23 by bmaaqoul         ###   ########.fr        #
+#    Updated: 2022/02/24 00:17:13 by bmaaqoul         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ NAME2 = server
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC1 = client.c
+SRC1 = client.c ft_atoi.c ft_strlen.c ft_putstr_fd.c
 SRC2 = server.c
 
 OBJ1 = $(SRC1:.c=.o)
